@@ -21,5 +21,6 @@
 #import "UITableView+WYMethods.h"
 #import "UITextField+WYLimitCount.h"
 #import "UIView+WYCategory.h"
+#import "UITextView+WYPlaceholder.h"
 
 #endif /* WYExtensionHeader_h */

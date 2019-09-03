@@ -32,6 +32,12 @@
 		15542E53231405F40093A1CD /* UIView+WYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 15542E3A231405F40093A1CD /* UIView+WYCategory.m */; };
 		15542E54231405F40093A1CD /* UILabel+WYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 15542E3B231405F40093A1CD /* UILabel+WYCategory.m */; };
 		15542E55231405F40093A1CD /* NSString+WYHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 15542E3C231405F40093A1CD /* NSString+WYHash.m */; };
+		1571D053231D8AC60071C714 /* UITextView+WYPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571D051231D8AC50071C714 /* UITextView+WYPlaceholder.m */; };
+		1571D054231D8AC60071C714 /* UITextView+WYPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571D052231D8AC50071C714 /* UITextView+WYPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1571D059231D8AE60071C714 /* wyLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571D055231D8AE60071C714 /* wyLocationManager.m */; };
+		1571D05A231D8AE60071C714 /* wyLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571D056231D8AE60071C714 /* wyLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1571D05B231D8AE60071C714 /* wyWetherTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1571D057231D8AE60071C714 /* wyWetherTool.m */; };
+		1571D05C231D8AE60071C714 /* wyWetherTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571D058231D8AE60071C714 /* wyWetherTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BBFCEA231412C40019B1B6 /* wyCommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BBFCE8231412C40019B1B6 /* wyCommonMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BBFCEB231412C40019B1B6 /* wyCommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BBFCE9231412C40019B1B6 /* wyCommonMethods.m */; };
 		15C5BE762313715700B7B8D9 /* wyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BE742313715700B7B8D9 /* wyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +75,12 @@
 		15542E3A231405F40093A1CD /* UIView+WYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYCategory.m"; sourceTree = "<group>"; };
 		15542E3B231405F40093A1CD /* UILabel+WYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WYCategory.m"; sourceTree = "<group>"; };
 		15542E3C231405F40093A1CD /* NSString+WYHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+WYHash.m"; sourceTree = "<group>"; };
+		1571D051231D8AC50071C714 /* UITextView+WYPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WYPlaceholder.m"; sourceTree = "<group>"; };
+		1571D052231D8AC50071C714 /* UITextView+WYPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WYPlaceholder.h"; sourceTree = "<group>"; };
+		1571D055231D8AE60071C714 /* wyLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyLocationManager.m; sourceTree = "<group>"; };
+		1571D056231D8AE60071C714 /* wyLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyLocationManager.h; sourceTree = "<group>"; };
+		1571D057231D8AE60071C714 /* wyWetherTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyWetherTool.m; sourceTree = "<group>"; };
+		1571D058231D8AE60071C714 /* wyWetherTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyWetherTool.h; sourceTree = "<group>"; };
 		15BBFCE8231412C40019B1B6 /* wyCommonMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wyCommonMethods.h; sourceTree = "<group>"; };
 		15BBFCE9231412C40019B1B6 /* wyCommonMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wyCommonMethods.m; sourceTree = "<group>"; };
 		15C5BE712313715600B7B8D9 /* wyTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wyTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +130,8 @@
 				15542E38231405F40093A1CD /* UITableView+WYMethods.m */,
 				15542E29231405F40093A1CD /* UITextField+WYLimitCount.h */,
 				15542E39231405F40093A1CD /* UITextField+WYLimitCount.m */,
+				1571D052231D8AC50071C714 /* UITextView+WYPlaceholder.h */,
+				1571D051231D8AC50071C714 /* UITextView+WYPlaceholder.m */,
 				15542E28231405F40093A1CD /* UIView+WYCategory.h */,
 				15542E3A231405F40093A1CD /* UIView+WYCategory.m */,
 				15542E33231405F40093A1CD /* WYExtensionHeader.h */,
@@ -155,6 +169,10 @@
 		15C5BE7C2313717C00B7B8D9 /* wyTools */ = {
 			isa = PBXGroup;
 			children = (
+				1571D056231D8AE60071C714 /* wyLocationManager.h */,
+				1571D055231D8AE60071C714 /* wyLocationManager.m */,
+				1571D058231D8AE60071C714 /* wyWetherTool.h */,
+				1571D057231D8AE60071C714 /* wyWetherTool.m */,
 				15C5BE812313717C00B7B8D9 /* wyFileManager.h */,
 				15C5BE7D2313717C00B7B8D9 /* wyFileManager.m */,
 				15C5BE832313717C00B7B8D9 /* wySpeakTools.h */,
@@ -187,10 +205,13 @@
 				15542E4A231405F40093A1CD /* NSString+WYCategory.h in Headers */,
 				15542E4D231405F40093A1CD /* NSArray+WYLog.h in Headers */,
 				15542E46231405F40093A1CD /* NSDictionary+WYLog.h in Headers */,
+				1571D054231D8AC60071C714 /* UITextView+WYPlaceholder.h in Headers */,
 				15542E47231405F40093A1CD /* NSString+WYHash.h in Headers */,
 				15C5BE862313717C00B7B8D9 /* wyTranslateTools.h in Headers */,
+				1571D05C231D8AE60071C714 /* wyWetherTool.h in Headers */,
 				15BBFCEA231412C40019B1B6 /* wyCommonMethods.h in Headers */,
 				15C5BE892313717C00B7B8D9 /* wyFileManager.h in Headers */,
+				1571D05A231D8AE60071C714 /* wyLocationManager.h in Headers */,
 				15C5BE762313715700B7B8D9 /* wyTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1571D059231D8AE60071C714 /* wyLocationManager.m in Sources */,
+				1571D053231D8AC60071C714 /* UITextView+WYPlaceholder.m in Sources */,
 				15C5BE882313717C00B7B8D9 /* wySpeakTools.m in Sources */,
 				15542E3D231405F40093A1CD /* UIImage+WYCategory.m in Sources */,
 				15542E45231405F40093A1CD /* NSObject+WYRuntime.m in Sources */,
@@ -271,6 +294,7 @@
 				15542E54231405F40093A1CD /* UILabel+WYCategory.m in Sources */,
 				15542E44231405F40093A1CD /* UIButton+WYCategory.m in Sources */,
 				15542E3F231405F40093A1CD /* UIColor+WYHex.m in Sources */,
+				1571D05B231D8AE60071C714 /* wyWetherTool.m in Sources */,
 				15BBFCEB231412C40019B1B6 /* wyCommonMethods.m in Sources */,
 				15542E52231405F40093A1CD /* UITextField+WYLimitCount.m in Sources */,
 				15542E55231405F40093A1CD /* NSString+WYHash.m in Sources */,

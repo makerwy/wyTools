@@ -23,7 +23,7 @@
     [self registerClass:NSClassFromString(classString) forHeaderFooterViewReuseIdentifier:classString];
 }
 - (void)wy_estimatedHeight {
-    self.estimatedRowHeight = UITableViewAutomaticDimension;
+    self.estimatedRowHeight = 0;
     self.estimatedSectionHeaderHeight = 0;
     self.estimatedSectionFooterHeight = 0;
 }

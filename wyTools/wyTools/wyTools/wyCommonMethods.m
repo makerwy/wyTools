@@ -63,6 +63,30 @@
 }
 
 #pragma mark -
+#pragma mark - 关于存储
+
+/**
+ NSUserDefaults
+ 
+ @param key key description
+ @return return value description
+ */
++ (id)wy_valuerForKey:(NSString *)key {
+    return [[NSUserDefaults standardUserDefaults] valueForKey:key];
+}
+
+/**
+ NSUserDefaults
+ 
+ @param value value description
+ @param key key description
+ */
++ (void)wy_setValue:(id)value forKey:(NSString *)key {
+    [[NSUserDefaults standardUserDefaults] setValue:value forKey:key];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+#pragma mark -
 #pragma mark - 关于时间
 
 /**
