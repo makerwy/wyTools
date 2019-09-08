@@ -44,6 +44,7 @@
 		15BE426B23255D5000425BF2 /* wyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE426723255D5000425BF2 /* wyPickerView.m */; };
 		15BE426C23255D5000425BF2 /* wyCalculateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE426823255D5000425BF2 /* wyCalculateTools.m */; };
 		15BE426D23255D5000425BF2 /* wyCalculateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BE426923255D5000425BF2 /* wyCalculateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15BE437F2325624B00425BF2 /* wyConstHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BE437E2325617000425BF2 /* wyConstHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5BE762313715700B7B8D9 /* wyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BE742313715700B7B8D9 /* wyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5BE852313717C00B7B8D9 /* wyFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BE7D2313717C00B7B8D9 /* wyFileManager.m */; };
 		15C5BE862313717C00B7B8D9 /* wyTranslateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BE7E2313717C00B7B8D9 /* wyTranslateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -91,6 +92,7 @@
 		15BE426723255D5000425BF2 /* wyPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyPickerView.m; sourceTree = "<group>"; };
 		15BE426823255D5000425BF2 /* wyCalculateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyCalculateTools.m; sourceTree = "<group>"; };
 		15BE426923255D5000425BF2 /* wyCalculateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyCalculateTools.h; sourceTree = "<group>"; };
+		15BE437E2325617000425BF2 /* wyConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wyConstHeader.h; sourceTree = "<group>"; };
 		15C5BE712313715600B7B8D9 /* wyTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wyTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C5BE742313715700B7B8D9 /* wyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wyTools.h; sourceTree = "<group>"; };
 		15C5BE752313715700B7B8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				15C5BE822313717C00B7B8D9 /* wyTranslateTools.m */,
 				15BBFCE8231412C40019B1B6 /* wyCommonMethods.h */,
 				15BBFCE9231412C40019B1B6 /* wyCommonMethods.m */,
+				15BE437E2325617000425BF2 /* wyConstHeader.h */,
 			);
 			path = wyTools;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				15BE426D23255D5000425BF2 /* wyCalculateTools.h in Headers */,
 				1571D05A231D8AE60071C714 /* wyLocationManager.h in Headers */,
 				15C5BE762313715700B7B8D9 /* wyTools.h in Headers */,
+				15BE437F2325624B00425BF2 /* wyConstHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
