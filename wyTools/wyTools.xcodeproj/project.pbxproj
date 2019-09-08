@@ -40,6 +40,10 @@
 		1571D05C231D8AE60071C714 /* wyWetherTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1571D058231D8AE60071C714 /* wyWetherTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BBFCEA231412C40019B1B6 /* wyCommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BBFCE8231412C40019B1B6 /* wyCommonMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15BBFCEB231412C40019B1B6 /* wyCommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BBFCE9231412C40019B1B6 /* wyCommonMethods.m */; };
+		15BE426A23255D5000425BF2 /* wyPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BE426623255D5000425BF2 /* wyPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15BE426B23255D5000425BF2 /* wyPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE426723255D5000425BF2 /* wyPickerView.m */; };
+		15BE426C23255D5000425BF2 /* wyCalculateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BE426823255D5000425BF2 /* wyCalculateTools.m */; };
+		15BE426D23255D5000425BF2 /* wyCalculateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15BE426923255D5000425BF2 /* wyCalculateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5BE762313715700B7B8D9 /* wyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BE742313715700B7B8D9 /* wyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15C5BE852313717C00B7B8D9 /* wyFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C5BE7D2313717C00B7B8D9 /* wyFileManager.m */; };
 		15C5BE862313717C00B7B8D9 /* wyTranslateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C5BE7E2313717C00B7B8D9 /* wyTranslateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,6 +87,10 @@
 		1571D058231D8AE60071C714 /* wyWetherTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyWetherTool.h; sourceTree = "<group>"; };
 		15BBFCE8231412C40019B1B6 /* wyCommonMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wyCommonMethods.h; sourceTree = "<group>"; };
 		15BBFCE9231412C40019B1B6 /* wyCommonMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wyCommonMethods.m; sourceTree = "<group>"; };
+		15BE426623255D5000425BF2 /* wyPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyPickerView.h; sourceTree = "<group>"; };
+		15BE426723255D5000425BF2 /* wyPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyPickerView.m; sourceTree = "<group>"; };
+		15BE426823255D5000425BF2 /* wyCalculateTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wyCalculateTools.m; sourceTree = "<group>"; };
+		15BE426923255D5000425BF2 /* wyCalculateTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wyCalculateTools.h; sourceTree = "<group>"; };
 		15C5BE712313715600B7B8D9 /* wyTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = wyTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C5BE742313715700B7B8D9 /* wyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wyTools.h; sourceTree = "<group>"; };
 		15C5BE752313715700B7B8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,6 +177,10 @@
 		15C5BE7C2313717C00B7B8D9 /* wyTools */ = {
 			isa = PBXGroup;
 			children = (
+				15BE426923255D5000425BF2 /* wyCalculateTools.h */,
+				15BE426823255D5000425BF2 /* wyCalculateTools.m */,
+				15BE426623255D5000425BF2 /* wyPickerView.h */,
+				15BE426723255D5000425BF2 /* wyPickerView.m */,
 				1571D056231D8AE60071C714 /* wyLocationManager.h */,
 				1571D055231D8AE60071C714 /* wyLocationManager.m */,
 				1571D058231D8AE60071C714 /* wyWetherTool.h */,
@@ -211,6 +223,8 @@
 				1571D05C231D8AE60071C714 /* wyWetherTool.h in Headers */,
 				15BBFCEA231412C40019B1B6 /* wyCommonMethods.h in Headers */,
 				15C5BE892313717C00B7B8D9 /* wyFileManager.h in Headers */,
+				15BE426A23255D5000425BF2 /* wyPickerView.h in Headers */,
+				15BE426D23255D5000425BF2 /* wyCalculateTools.h in Headers */,
 				1571D05A231D8AE60071C714 /* wyLocationManager.h in Headers */,
 				15C5BE762313715700B7B8D9 /* wyTools.h in Headers */,
 			);
@@ -293,10 +307,12 @@
 				15C5BE852313717C00B7B8D9 /* wyFileManager.m in Sources */,
 				15542E54231405F40093A1CD /* UILabel+WYCategory.m in Sources */,
 				15542E44231405F40093A1CD /* UIButton+WYCategory.m in Sources */,
+				15BE426B23255D5000425BF2 /* wyPickerView.m in Sources */,
 				15542E3F231405F40093A1CD /* UIColor+WYHex.m in Sources */,
 				1571D05B231D8AE60071C714 /* wyWetherTool.m in Sources */,
 				15BBFCEB231412C40019B1B6 /* wyCommonMethods.m in Sources */,
 				15542E52231405F40093A1CD /* UITextField+WYLimitCount.m in Sources */,
+				15BE426C23255D5000425BF2 /* wyCalculateTools.m in Sources */,
 				15542E55231405F40093A1CD /* NSString+WYHash.m in Sources */,
 				15542E3E231405F40093A1CD /* NSString+WYCategory.m in Sources */,
 				15542E4E231405F40093A1CD /* NSDictionary+WYLog.m in Sources */,

@@ -10,7 +10,6 @@
 
 @implementation wyCommonMethods
 
-
 #pragma mark -
 #pragma mark - 系统层级 获取当前VC
 

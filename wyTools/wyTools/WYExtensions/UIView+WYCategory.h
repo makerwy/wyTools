@@ -126,6 +126,6 @@
 @property(assign, nonatomic) IBInspectable CGFloat wy_shadowOpacity;
 @property(assign, nonatomic) IBInspectable CGSize wy_shadowOffset;
 
-+ (instancetype)loadXib;
++ (instancetype)wy_loadXib;
 
 @end

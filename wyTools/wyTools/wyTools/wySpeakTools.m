@@ -9,8 +9,6 @@
 #import "wySpeakTools.h"
 #import <AVFoundation/AVFoundation.h>
 
-
-
 @interface wySpeakTools ()
 //所需的源语言
 @property (nonatomic,assign) WY_LanguageType languageType;

@@ -206,7 +206,7 @@
     return self.layer.shadowOpacity;
 }
 
-+ (instancetype)loadXib {
++ (instancetype)wy_loadXib {
     return [[UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil] instantiateWithOwner:nil options:nil].firstObject;
 }
 

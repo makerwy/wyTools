@@ -22,6 +22,8 @@ FOUNDATION_EXPORT const unsigned char wyToolsVersionString[];
 #import "wyCommonMethods.h"
 #import "wyLocationManager.h"
 #import "wyWetherTool.h"
+#import "wyCalculateTools.h"
+#import "wyPickerView.h"
 
 #import "WYExtensionHeader.h"
 
