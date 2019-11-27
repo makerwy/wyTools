@@ -268,10 +268,15 @@
         }];
         [alertVC addAction:actionCancel];
     }
+    
+    if ([viewController isKindOfClass:[UIWindow class]]) {
+        viewController = ((UIWindow *)viewController).rootViewController;
+    }
     NSString *deviceType = [UIDevice currentDevice].model;
     if([deviceType isEqualToString:@"iPad"]) {
         alertVC.popoverPresentationController.sourceView = [(UIViewController *)viewController view];
     }
+    
     [viewController presentViewController:alertVC animated:YES completion:nil];
     return alertVC;
 }
@@ -315,6 +320,10 @@
         }];
         [alertVC addAction:actionCancel];
     }
+    
+    if ([viewController isKindOfClass:[UIWindow class]]) {
+        viewController = ((UIWindow *)viewController).rootViewController;
+    }
     NSString *deviceType = [UIDevice currentDevice].model;
     if([deviceType isEqualToString:@"iPad"]) {
         alertVC.popoverPresentationController.sourceView = [(UIViewController *)viewController view];
@@ -356,6 +365,9 @@
             }
         }];
         [alertVC addAction:actionCancel];
+    }
+    if ([viewController isKindOfClass:[UIWindow class]]) {
+        viewController = ((UIWindow *)viewController).rootViewController;
     }
     NSString *deviceType = [UIDevice currentDevice].model;
     if([deviceType isEqualToString:@"iPad"]) {

@@ -57,7 +57,7 @@ static char *changeLocation = "wy_location";
     dispatch_once(&once_t, ^{
         UITextField *textField = [[UITextField alloc] init];
         textField.placeholder = @" ";
-        color = [textField valueForKeyPath:@"_placeholderLabel.textColor"];
+        color = textField.textColor;
     });
     return color;
 }

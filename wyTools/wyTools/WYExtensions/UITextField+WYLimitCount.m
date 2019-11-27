@@ -61,7 +61,8 @@ static char wy_limit;
  @param color color description
  */
 - (void)wy_placeholderColor:(UIColor *)color {
-    [self setValue:color forKeyPath:@"_placeholderLabel.textColor"];
+    NSMutableAttributedString *arrStr = [[NSMutableAttributedString alloc] initWithString:self.placeholder attributes:@{NSForegroundColorAttributeName:color}];
+    self.attributedText = arrStr;
 }
 
 @end

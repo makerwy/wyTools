@@ -1,0 +1,6 @@
+framework module wyTools {
+  umbrella header "wyTools.h"
+
+  export *
+  module * { export * }
+}
